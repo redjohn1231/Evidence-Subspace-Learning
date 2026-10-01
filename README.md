@@ -1,6 +1,9 @@
 # Evidence Subspace Learning for Interpretable Deepfake Detection
 
-In main.py, the dataset module provides the standard data generators used for training, validation, and testing. The dataset module is responsible for loading and preprocessing the dataset and generating the corresponding training, validation, and test sets.  The data generators should be configured according to the actual dataset organization and local data paths before running the code.
+In main.py, the dataset module provides the standard data generators used for training, validation, and testing. The dataset module is responsible for loading and preprocessing the dataset and generating the corresponding training, validation, and test sets. The data generators should be configured according to the actual dataset organization and local data paths before running the code.
+
+The network weights and evidence Bases are saved separately. The network weights are stored in `model.weights.h5`, while the evidence Bases is stored in `P.npy`. During inference, both files must be loaded to reconstruct the complete detection model.
+
 
 ## Requirements
 
