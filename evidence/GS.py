@@ -1,7 +1,5 @@
 import tensorflow as tf
 
-
-
 def GS_basis(
         features,
         labels,
