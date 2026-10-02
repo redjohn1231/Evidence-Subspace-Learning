@@ -4,15 +4,15 @@ In main.py, the dataset module provides the standard data generators used for tr
 
 The network weights and evidence Bases are saved separately. The network weights are stored in `model.weights.h5`, while the evidence Bases is stored in `P.npy`. During inference, both files must be loaded to reconstruct the complete detection model.
 
-1. train/ — Training and Parameter Optimization
+1.train/ — Training and Parameter Optimization
 
 This directory contains the training scripts and configurations responsible for optimizing the network parameters and updating the evidence bases.
 
-2. model/ — Network Architecture
+2.model/ — Network Architecture
 
 This directory contains the complete implementation of the proposed Evidence Basis-based Deepfake Detection Framework.
 
-3. evidence/ — Forensic Attribute Construction
+3.evidence/ — Forensic Attribute Construction
 
 This directory contains the implementations for constructing the three forensic attributes.
 
