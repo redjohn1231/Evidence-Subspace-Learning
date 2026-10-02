@@ -1,17 +1,9 @@
 class Config:
-
-    IMAGE_SIZE = 256
-    
-    FEATURE_DIM = 1024
-
-    NUM_CLASSES = 5
-
-    EVIDENCE_DIM = 5
-
-    EMA_BETA = 0.4
-    
-    LR = 1e-4
-    
-    EPOCHS  = None
-
-    DEVICE = "GPU"
+    IMAGE_SIZE = ...       # Input size
+    FEATURE_DIM = ...      # Backbone feature dimension
+    NUM_CLASSES = ...      # Number of detection classes
+    EVIDENCE_DIM = ...     # Number of evidence bases
+    EMA_BETA = ...         # smoothing coefficient
+    LR = ...               # Learning rate
+    EPOCHS = ...           # Number of training epochs
+    DEVICE = ...           # Computing device
