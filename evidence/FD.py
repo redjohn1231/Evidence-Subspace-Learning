@@ -1,6 +1,5 @@
 import tensorflow as tf
 
-
 def FD_basis(real,fake):
 
     mu_r=tf.reduce_mean(real,
